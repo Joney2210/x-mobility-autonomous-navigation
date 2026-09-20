@@ -1,3 +1,10 @@
+> **Note:** This repository is based on NVIDIA's X-Mobility framework
+> (https://github.com/NVlabs/X-Mobility), used as the foundation for my
+> Final Year Project. My own contributions are in the `my_integration/`
+> folder below — ROS2 deployment, Nova Carter/Isaac Sim setup, and an
+> applied integration attempt on a Unitree H1 humanoid platform.
+
+
 <h1 align="center">X-Mobility: E2E Generalizable Navigation with World Modeling</h1>
 </p>
 

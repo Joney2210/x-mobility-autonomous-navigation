@@ -1,0 +1,17 @@
+[package]
+title = "Isaac Sim No iRay"
+version = "1.0.0"
+
+[dependencies]
+"isaacsim.exp.base.python" = {}
+
+[settings]
+rtx.rendermode = "RayTracedLighting"
+rtx/pathtracing/enabled = false
+rtx/iray/enabled = false
+renderer/enabled = "rtx"
+app/renderer/skipWhileMinimized = true
+
+[settings.app]
+fastShutdown = true
+installSignalHandlers = 0
